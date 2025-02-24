@@ -7,7 +7,7 @@ function mincost(arr)
 for(let i =0;i<arr.length;i++){
 	pq.push(arr[i]);
 }
-	while(pq.length>1{
+	while(pq.size()>1{
 		let top1 = pq.peek();
 		pq.pop();
 		 
