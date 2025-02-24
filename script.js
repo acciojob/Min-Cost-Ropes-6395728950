@@ -15,7 +15,8 @@ function mincost(arr) {
     cost+=val;
     pq.push(val);
   }
-  return cost;	
+	let val = pq.peek();
+  return cost+val;	
 }
 
 module.exports=mincost;
